@@ -1,4 +1,4 @@
-# Contributing to staty
+# Contributing to buffer-json-codec
 
 ## Issue Contributions
 
@@ -16,8 +16,8 @@ This document will guide you through the contribution process.
 Fork the project [on GitHub](https://github.com/geut/buffer-json-codec) and check out your copy locally.
 
 ```bash
-$ git clone git@github.com:username/staty.git
-$ cd staty
+$ git clone git@github.com:username/buffer-json-codec.git
+$ cd buffer-json-codec
 $ npm install
 $ git remote add upstream git://github.com/geut/buffer-json-codec.git
 ```
