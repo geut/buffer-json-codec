@@ -1,6 +1,6 @@
 {
   "name": "@geut/buffer-json-codec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Codec for encode/decode JSON objects with buffer keys",
   "type": "module",
   "exports": {
