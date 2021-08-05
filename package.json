@@ -1,0 +1,50 @@
+{
+  "name": "@geut/buffer-json-codec",
+  "version": "0.0.1",
+  "description": "Codec for encode/decode JSON objects with buffer keys",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "uvu",
+    "posttest": "npm run lint",
+    "lint": "standard",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3",
+    "uvu": "^0.5.1"
+  },
+  "standard": {
+    "env": [
+      "node",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geut/buffer-json-codec.git"
+  },
+  "keywords": [
+    "create",
+    "geut",
+    "module"
+  ],
+  "author": {
+    "name": "GEUT",
+    "email": "contact@geutstudio.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geut/buffer-json-codec/issues"
+  },
+  "homepage": "https://github.com/geut/buffer-json-codec#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
