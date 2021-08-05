@@ -31,9 +31,11 @@
     "url": "git+https://github.com/geut/buffer-json-codec.git"
   },
   "keywords": [
-    "create",
-    "geut",
-    "module"
+    "encoding",
+    "decoding",
+    "json",
+    "codec",
+    "buffer"
   ],
   "author": {
     "name": "GEUT",
