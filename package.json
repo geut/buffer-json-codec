@@ -48,5 +48,8 @@
   "homepage": "https://github.com/geut/buffer-json-codec#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "varint": "^6.0.0"
   }
 }
